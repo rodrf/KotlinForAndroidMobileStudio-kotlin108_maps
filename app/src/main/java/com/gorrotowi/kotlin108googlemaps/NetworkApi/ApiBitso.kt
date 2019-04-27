@@ -40,7 +40,7 @@ object ApiBitso {
 
     }.build()
 
-    fun getAvailableBooks(success:(ResponseAvailable) -> Unit), Call{
+    fun getAvailableBooks(success:(ResponseAvailable) -> Unit), Call{ asdasd
         val callBooks = bitsoEndpoints.getAvailableBooks()
         callBooks.enqueue(object : Callback<ResponseAvailable> t: Throwable)
     }
